@@ -13,6 +13,9 @@
         <remote name="PixelOS-AOSP"
                 fetch="https://github.com/PixelOS-AOSP" />
 
+        <remote name="SuperiorOS"
+                fetch="https://github.com/SuperiorOS" />
+
         <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
 
         <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="hariphoenix1708" revision="14" clone-depth="1" />
@@ -21,5 +24,5 @@
         <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="PixelOS-Devices" revision="fourteen" clone-depth="1" />
         <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="ajitlenka30" revision="14" clone-depth="1" />
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS-AOSP" revision="fourteen" clone-depth="1" />
-        <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="ajitlenka30" revision="13" clone-depth="1" />
+        <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="SuperiorOS" revision="fourteen" clone-depth="1" />
  </manifest>
