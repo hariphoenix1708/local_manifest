@@ -16,6 +16,12 @@
         <remote name="SuperiorOS"
                 fetch="https://github.com/SuperiorOS" />
 
+        <remote name="clang"
+                fetch="https://gitlab.com/itsshashanksp" />
+
+        <remote name="ImSurajxD"
+                fetch="https://gitlab.com/ImSurajxD" />
+
         <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
 
         <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="hariphoenix1708" revision="ursa" clone-depth="1" />
@@ -23,4 +29,6 @@
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="hariphoenix1708" revision="main" clone-depth="1" />
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS-AOSP" revision="fourteen" clone-depth="1" />
         <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="SuperiorOS" revision="fourteen" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/r498229b" name="android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="clang" revision="13.0" clone-depth="1" />
  </manifest>
