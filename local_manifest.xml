@@ -2,7 +2,7 @@
 <manifest>
 
         <remote name="hariphoenix1708"
-                fetch="https://github.com/hariphoenix1708" />
+                fetch="https://gitlab.com/hariphoenix1708" />
 
         <remote name="ajitlenka30"
                 fetch="https://github.com/ajitlenka30" />
@@ -18,11 +18,9 @@
 
         <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
 
-        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="hariphoenix1708" revision="14" clone-depth="1" />
-        <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="PixelOS-Devices" revision="fourteen" clone-depth="1" />
-        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="hariphoenix1708" revision="14" clone-depth="1" />
-        <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="PixelOS-Devices" revision="fourteen" clone-depth="1" />
-        <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="ajitlenka30" revision="14" clone-depth="1" />
+        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="hariphoenix1708" revision="ursa" clone-depth="1" />
+        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="hariphoenix1708" revision="fourteen" clone-depth="1" />
+        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="hariphoenix1708" revision="main" clone-depth="1" />
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS-AOSP" revision="fourteen" clone-depth="1" />
         <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="SuperiorOS" revision="fourteen" clone-depth="1" />
  </manifest>
